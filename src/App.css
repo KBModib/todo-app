@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+body {
+    margin: 10%;
+    -webkit-text-fill-color: white;
+    background-color: #5ac2c4;
+    margin-bottom: -15px;
+
+}
+.tab-heading {
+    padding: 3%;
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: #EEB5EB;
+    margin-left: 35%;
+    border: #d4a2d2;
+    -webkit-text-fill-color: rgb(71, 68, 68);
+}
+.tab { 
+    background-color: #C8F4F9;
+    margin-top: -18px;
+    -webkit-text-fill-color: black;
+}
+.inputbox {
+    background-color: #c26dbc;
+    -webkit-text-fill-color: rgb(95, 92, 92);
+    width: 98%;
+    margin-left: 5px;
+}
+.tabform {
+    background-color: #c26dbc;
+    -webkit-text-fill-color: black;
+}
+.navbar {
+    background-color: #c26dbc;
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar button {
+    margin-left: 70%;
+}
+
+
