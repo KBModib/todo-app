@@ -1,7 +1,7 @@
 *{
-    margin: 0;
+    margin: 0.2%;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Kalam', cursive;
     overflow: hidden;
 }
 body {
@@ -10,9 +10,11 @@ body {
     background-color: #5ac2c4;
     margin-bottom: -15px;
 
+
 }
 .tab-heading {
     padding: 3%;
+    -webkit-text-fill-color: black;
 }
 .btn {
     width: 100px;
@@ -24,11 +26,9 @@ body {
 }
 .tab { 
     background-color: #C8F4F9;
-    margin-top: -18px;
     -webkit-text-fill-color: black;
 }
 .inputbox {
-    background-color: #c26dbc;
     -webkit-text-fill-color: rgb(95, 92, 92);
     width: 98%;
     margin-left: 5px;
@@ -36,14 +36,43 @@ body {
 .tabform {
     background-color: #c26dbc;
     -webkit-text-fill-color: black;
+    
 }
 .navbar {
     background-color: #c26dbc;
     margin-left: 0;
     margin-right: 0;
 }
-.navbar button {
-    margin-left: 70%;
+.nav-buttons {
+    margin-left: 57%;
+    margin-bottom: 0.2%;
+    background-color: rgb(114, 226, 226);
+    border-radius: 20px;
+    width: 80px
+}
+.nav-buttons button {
+    margin: 3% 1%;
+}
+.todo-card {
+    background-color: #5ac2c4;
+    width: 90%;
+    margin: 5%;
+    -webkit-text-fill-color: rgb(25, 32, 30);
+}
+.buttons-itemscard button {
+    margin: 3% 1%;
+    -webkit-text-fill-color: rgb(153, 155, 155);
+    border-radius: 30px;
+    background-color: #EEB5EB;
+    border-color: transparent;
+    font-weight: 500;
+}
+.floating-label {
+    width: 98%;
+    margin: 1% 1%;
 }
 
+.opt1 {
+    background-image: url(./images/high.png);
 
+}

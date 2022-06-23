@@ -1,16 +1,29 @@
-import React, { useState, useRef, useEffect } from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import { Button } from 'react-bootstrap'
-import Todo from  './Todo-items'
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import TodoItems from  './Todo-items';
+import Clock from 'react-live-clock';
+
+
 function Todo () {
+
+  const handleClick=()=>{
+   
+    localStorage.clear();
+    window.location.assign("/");
+}
   return (
     <>
       <Navbar className="navbar">
         <Navbar.Brand href="#" className='nav-name'>To-Do List</Navbar.Brand>
-        <Button>Sign out</Button>
+          <button className="nav-buttons" onClick={handleClick}>Sign out</button>
+          <Clock
+          date={''}
+          format={'dddd, MMMM DD, YYYY, HH:mm '} />
       </Navbar>
-      <Todo />
+      <TodoItems />
+     
     </>
   )
 }
+
 export default Todo;
